@@ -1,10 +1,38 @@
 /* Universal Format */
 html {
   font-size: 18px;
-  line-height: 1.4;
+}
+
+body {
+  font-family: helvetica;
+  line-height: 1.4rem;
 }
 
 /* Header Format */
+header {
+  background-image: url(./resources/images/glasses-bg.png);
+}
+
+.container {
+  width: 960px;
+  background-color: cadetblue;
+  font-size: 1rem;
+  color: white;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.company-header {
+  display: flex;
+  align-items: center;
+}
+
+.container img {
+  height: 1.5rem;
+  padding: 1 1 1 2;
+}
+
 
 /* Company Logo Format */
 
